@@ -5,7 +5,9 @@ This project was created on 3/11/2019.
 Explore US Bikeshare Data.
 
 ### Description
-Describe what your project is about and what it does
+This project explores data related to bikeshare systems for three major cities
+in the US: Chicago, New York City, and Washington. It creates an interactive experience
+where it takes raw input from the user to present statistics. 
 
 ### Files used
 Include the files used
