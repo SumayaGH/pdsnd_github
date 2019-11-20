@@ -180,20 +180,20 @@ def user_stats(df):
 def raw_output(df):
 
     view = input('\nWould you like to view raw data? Enter yes or no.\n')
-    i = 0
-    x = 5
+    start = 0
+    end = 5
     if view.lower() == 'yes':
         check = 0
         while check < len(df):
             if view.lower() == 'yes':
-                raw_display = df.iloc[i: x]
+                raw_display = df.iloc[start: end]
                 print(raw_display)
                 check += 1
                 view = input('\nWould you like to view more?\n')
                 if view.lower() == 'yes':
-                    i += 5
-                    x += 5
-                    print( raw_display.iloc[i : x])
+                    start += 5
+                    end += 5
+                    print( raw_display.iloc[start : end])
                 elif view.lower() == 'no':
                     break
 
